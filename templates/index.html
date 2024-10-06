@@ -1,0 +1,165 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Shuttle Monitoring</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#health-monitoring {
+    background-color: #f0f0f0;
+    padding: 1em;
+}
+
+.health-stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.stat {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.fatigue-level, .stress-level {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#notifications {
+    background-color: #f0f0f0;
+    padding: 1em;
+}
+
+#notifications ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#notifications li {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#self-care {
+    background-color: #f0f0f0;
+    padding: 1em
+}
+</style>
+</head>
+<body>
+    <!-- Navigation Module -->
+    <nav>
+        <ul>
+            <li><a href="#life-support">Life Support</a></li>
+            <li><a href="#propulsion">Propulsion</a></li>
+            <li><a href="#communication">Communication</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Health Monitoring Module -->
+    <section id="health-monitoring">
+        <h1>Health Status</h1>
+        <div class="health-stats">
+            <div class="stat">
+                <h2>Heart Rate</h2>
+                <p>70 bpm</p>
+            </div>
+            <div class="stat">
+                <h2>Blood Pressure</h2>
+                <p>120/80 mmHg</p>
+            </div>
+            <div class="stat">
+                <h2>Oxygen Saturation</h2>
+                <p>95%</p>
+            </div>
+        </div>
+        <div class="fatigue-level">
+            <h2>Fatigue Level</h2>
+            <p>50%</p>
+        </div>
+        <div class="stress-level">
+            <h2>Stress Level</h2>
+            <p>30%</p>
+        </div>
+    </section>
+    
+    <!-- Notification System -->
+    <section id="notifications">
+        <h1>Notifications</h1>
+        <ul>
+            <li>Critical: Life Support System Failure</li>
+            <li>Warning: Low Oxygen Levels</li>
+        </ul>
+    </section>
+    
+    <!-- Self-Care Module -->
+    <section id="self-care">
+        <h1>Self-Care Recommendations</h1>
+        <div class="recommendations">
+            <div class="rec">
+                <h2>Stress Reduction</h2>
+                <p>Meditate for 10 minutes</p>
+            </div>
+            <div class="rec">
+                <h2>Sleep Management</h2>
+                <p>Sleep for 7-8 hours</p>
+            </div>
+            <div class="rec">
+                <h2>Physical Activity</h2>
+                <p>Exercise for 30 minutes</p>
+            </div>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
